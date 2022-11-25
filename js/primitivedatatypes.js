@@ -1,0 +1,12 @@
+let price=14500;
+let rating=4.9;
+let pname="Iphone 6s";
+let avail='Y';
+let discount=true;
+let availability;
+console.log(typeof price);
+console.log(typeof rating);
+console.log(typeof pname);
+console.log(typeof avail);
+console.log(typeof discount);
+console.log(typeof availability);

@@ -12,8 +12,9 @@ console.log(employee[2].salary);
 
 for(let i=0;i<=employee.length;i++)
 {
-    console.log(employee[i].id);
+    /*console.log(employee[i].id);
     console.log(employee[i].name);
     console.log(employee[i].salary);
+    */
     console.log(employee[i].id,employee[i].name,employee[i].salary);
 }

@@ -1,6 +1,5 @@
 const rows=10;
 const columns=8;
-/*
 const array1=[];
 for(let i=0;i<rows;i++)
 {
@@ -11,10 +10,10 @@ for(let i=0;i<rows;i++)
     }
 }
 console.log(array1);
-*/
+/*
 const myArray=new Array(rows);
 for(let i=0;i<myArray.length;i++)
 {
     myArray[i]=new Array(columns);
 }
-console.log(myArray);
+console.log(myArray);*/

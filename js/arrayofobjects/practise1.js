@@ -9,7 +9,7 @@ console.log(employee);
 console.log(employee[0].id,employee[0].name,employee[0].salary);
 console.log(employee[1].name);
 console.log(employee[2].salary);
-
+/*
 for(let i=0;i<=employee.length;i++)
 {
     /*console.log(employee[i].id);
@@ -17,4 +17,5 @@ for(let i=0;i<=employee.length;i++)
     console.log(employee[i].salary);
     */
     console.log(employee[i].id,employee[i].name,employee[i].salary);
+
 }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ascending
+public class descending
 {
     public static void main(String[] args)
     {
@@ -10,9 +10,9 @@ public class ascending
         int b=input.nextInt();
         System.out.println("enter the third number:");
         int c=input.nextInt();
-        if(a<b&&a<c)
+        if(a>b&&a>c)
         {
-            if(b<c)
+            if(b>c)
             {
         System.out.println(a+","+b+","+c);
     }
@@ -21,9 +21,9 @@ public class ascending
         System.out.println(a+","+c+","+b);
     }
 }
-else if(b<a&&b<c)
+else if(b>a&&b>c)
 {
-    if(a<c)
+    if(a>c)
     {
         System.out.println(b+","+a+","+c);
     }
@@ -33,9 +33,9 @@ else if(b<a&&b<c)
     }
 
 }
-else if(c<a&&c<b)
+else if(c>a&&c>b)
 {
-    if(a<b)
+    if(a>b)
     {
         System.out.println(c+","+a+","+b);
     }
